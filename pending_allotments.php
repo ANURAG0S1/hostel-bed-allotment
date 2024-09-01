@@ -1,0 +1,1 @@
+SELECT s.* FROM students s LEFT JOIN beds b ON s.id = b.student_id WHERE s.id = b.student_id; alloted rooms 
